@@ -1,10 +1,13 @@
 # B23_DTS20
 
-##PROYEK TIM HTML &amp; CSS KELAS-PRO-B 
-###DTS Programming 2020
+## PROYEK TIM HTML &amp; CSS KELAS-PRO-B 
 
-####Tujuan:
+### DTS Programming 2020
+
+#### Tujuan:
+
 Untuk mendapatkan pengertian dasar HTML & CSS dan membangun kemampuan-kemampuan perencanaan pembangunan suatu aplikasi berbasis web, kerjasama tim, kemandirian dan
+	
 	* Ketik nama anda sesuai dengan yang di Discord di bagian Pembagian Tim dibawah. Anda dapat menuliskan nama anda di tim mana saja.
 	* Pada saat pengumpulan proyek, namai file Anda dengan format sebagai berikut: NomorTim_DTS20 (contoh: B10_DTS20)
 	* Peserta akan dipacu untuk dapat melakukan riset secara mandiri, namun dapat melakukan tanya jawab di Discord di kelas masing-masing bersama mentor di jam-jam sebagai berikut:
@@ -12,7 +15,7 @@ Untuk mendapatkan pengertian dasar HTML & CSS dan membangun kemampuan-kemampuan 
 		* 13:00 - 15:00
 		* 16:00 - 18:00
 		* 20:00 - 21:00
-
+---
 	a. Command Line
 	b. Git
 	c. Salah satu anggota ditugaskan untuk membuat akun GitHub dan mem-publish halaman web nanti apabila sudah jadi
@@ -36,7 +39,7 @@ Untuk mendapatkan pengertian dasar HTML & CSS dan membangun kemampuan-kemampuan 
 	c. Referensi tambahan:
 		i. Color code: https://flatuicolors.com/ 
 		ii. Berbagai macam animasi CSS: CSS Animations
-
+---
 ## Team B23
 1. Michellead#1482
 2. ariefbudiman#0130
