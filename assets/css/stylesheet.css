@@ -1,4 +1,87 @@
+* {
+  box-sizing: border-box;
+}
 
-.main {
-	
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(../fonts/Roboto/RobotoMono-Regular.ttf) format('truetype');
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title-center-h2 {
+	text-align: center;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: contain;
+  width: 350px;
+  height: 350px;
+}
+
+.swiper-button-next:active {
+  color: #1d2eae;
+}
+.swiper-button-prev:active {
+	color: #1d2eae;
+}
+
+.swiper-button-next:hover {
+  color: grey;
+}
+.swiper-button-prev:hover {
+	color: grey;
+}
+
+.swiper-button-next {
+  color: black;
+}
+.swiper-button-prev {
+	color: black;
+}
+
+.michelle {
+	background-image:url(../../assets/images/humaaans/Humaaans/standing-20.png);
+}
+.liko {
+	background-image:url(../../assets/images/humaaans/Humaaans/standing-19.png)
+}
+.sandi {
+	background-image:url(../../assets/images/humaaans/Humaaans/sitting-8.png)
+}
+.tiyo {
+	background-image:url(../../assets/images/humaaans/Humaaans/standing-5.png)
+}
+.arief {
+	background-image:url(../../assets/images/humaaans/Humaaans/standing-11.png)
 }
