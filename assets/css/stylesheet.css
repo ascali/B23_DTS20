@@ -141,6 +141,106 @@ a {
     text-decoration: underline;
 }
 
+.web-description{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.images{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1290px;
+}
+
+.heading{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.image{
+  width: 25%;
+  float: left;
+  background-size: 20%;
+}
+
+.image img{
+  width: 34vh;
+  height: 25vh;
+  margin-bottom: 50px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.img-1 {
+  animation: slide-1 20s infinite;
+}
+
+.img-2{
+  animation: slide-2 20s infinite;
+}
+
+.img-3{
+  animation: slide-3 20s infinite;
+}
+
+.img-4{
+  animation: slide-4 20s infinite;
+}
+
+@keyframes slide-1 {
+  0%{
+    background-image: url('https://cdn.dribbble.com/users/466659/screenshots/6827548/lazy_daisy.png');
+  }
+  50%{
+    background-image: url('https://cdn.dribbble.com/users/418188/screenshots/11143116/media/4f370811b981421c91864e14dd4a7920.png');
+  }
+  100%{
+    background-image: url('https://cdn.dribbble.com/users/466659/screenshots/6827548/lazy_daisy.png');
+  }
+}
+
+@keyframes slide-2{
+  0%{
+    background-image: url('https://cdn.dribbble.com/users/1150809/screenshots/10871409/media/cb6f2af240ff6ba626bd53bca7d4b95c.png');
+  }
+  50%{
+    background-image: url('https://cdn.dribbble.com/users/4189231/screenshots/11141145/media/330b410a91a850a77d808ad3912e1cc8.jpg');
+  }
+  100%{
+    background-image: url('https://cdn.dribbble.com/users/1150809/screenshots/10871409/media/cb6f2af240ff6ba626bd53bca7d4b95c.png');
+  }
+}
+
+@keyframes slide-3{
+  0%{
+    background-image: url('https://cdn.dribbble.com/users/452635/screenshots/11145940/media/b937d230bef7e494ed65d1e3af0bee94.png');
+  }
+  50%{
+    background-image: url('https://cdn.dribbble.com/users/18850/screenshots/9508691/media/93fdf4abfb2df5a0302680fcfa38fc58.png');
+  }
+  100%{
+    background-image: url('https://cdn.dribbble.com/users/452635/screenshots/11145940/media/b937d230bef7e494ed65d1e3af0bee94.png');
+  }
+}
+
+@keyframes slide-4{
+  0%{
+    background-image: url('https://cdn.dribbble.com/users/821812/screenshots/11140242/media/40b5a0fc61068667ae0ef097dacbdbc1.png');
+  }
+  50%{
+    background-image: url('https://cdn.dribbble.com/users/77628/screenshots/5553234/intuit-v2_dribbble.jpg');
+  }
+  100%{
+    background-image: url('https://cdn.dribbble.com/users/821812/screenshots/11140242/media/40b5a0fc61068667ae0ef097dacbdbc1.png');
+  }
+}
+
+.clear{
+  clear: left;
+}
 
 
 

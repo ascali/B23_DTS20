@@ -16,6 +16,16 @@
     .home img {
         display: none;
     }
+
+    .image{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .image img{
+        width: 30vh;
+    }
+
 }
 
 /* Untuk Smartphone */
@@ -26,5 +36,9 @@
 
     .home p {
         font-size: 14px;
+    }
+
+    .image{
+        width: 100%;
     }
 }
