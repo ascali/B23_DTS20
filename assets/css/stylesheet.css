@@ -51,8 +51,13 @@ a {
   margin: 0 auto;
 }
 
+.our-team {
+	background: #f7f7f7;
+}
+
 .title-center-h2 {
 	text-align: center;
+    padding: 1%;
 }
 
 .swiper-container {
