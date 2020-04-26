@@ -272,7 +272,6 @@ footer {
 }
 
 .web-description{
-  padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
@@ -301,8 +300,8 @@ footer {
 }
 
 .image img{
-  width: 34vh;
-  height: 25vh;
+  width: 18vw;
+  height: 21vh;
   margin-bottom: 50px;
   background-size: 100%;
   background-repeat: no-repeat;
