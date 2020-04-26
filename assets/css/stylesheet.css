@@ -398,13 +398,18 @@ footer {
   clear: left;
 }
 
-.about h3, p {
-max-width: 900px;
-margin: auto;
-padding: 25px;
-text-align: center;
+.left {
+  text-align: left;
+  width: 50%;
+  padding: 10px;
+  font-size: 40px;
 }
 
+.right {
+  text-align: right;
+  width: auto;
+  padding: 10px;
+}
 
 
 
