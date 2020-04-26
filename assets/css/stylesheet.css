@@ -398,7 +398,10 @@ footer {
   clear: left;
 }
 
+.about h3, p {
+text-align: center;
 
+}
 
 
 
