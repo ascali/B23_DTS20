@@ -398,17 +398,29 @@ footer {
   clear: left;
 }
 
+.about {
+  background: linear-gradient(to right, #36D1DC, #5B86E5); 
+  height: 40vh;
+}
+
+h2 {
+  text-align: center;
+}
+
 .left {
-  text-align: left;
-  width: 50%;
-  padding: 10px;
-  font-size: 40px;
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 4%;
+  float: left;
+  font-size: 30px;
+  color: white
 }
 
 .right {
-  text-align: right;
-  width: auto;
-  padding: 10px;
+  float: right;
+  width: 60%;
+  padding: 22px;
+  color: white;
 }
 
 
