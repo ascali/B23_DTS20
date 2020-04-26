@@ -24,11 +24,15 @@ window.onscroll = function() {
 document.getElementById("burger-menu").addEventListener("click", function(){
   var x = document.getElementById("id-header-right");
   if (x.className === "header-right") {
-    x.className += " responsive";
+    x.className += " active";
   } else {
     x.className = "header-right";
   }
 });
+
+const transformMenu = (x) => {
+  x.classList.toggle("change");
+}
 
 // handle scroll to menu using js
 /*document.getElementById("menu_home").addEventListener("click", function(){

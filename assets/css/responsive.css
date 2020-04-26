@@ -30,7 +30,7 @@
 
 /* Untuk Smartphone */
 @media screen and (max-width: 670px) {
-  .header-right a/*:not(:first-child)*/ {
+  /* .header-right a:not(:first-child) {
     display: none;
   }
    a.icon {
@@ -38,11 +38,47 @@
     display: block;
     padding: 19px 0;
     padding-right: 5%;
+  } */
+
+  header .container {
+    padding-top: .5em;
   }
+
+  .header-right {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: white;
+      /* width: 100%; */
+      position: fixed;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(50%);
+      transition: .4s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+      background-color: grey;
+  }
+
+  .header-right.active {
+      /* opacity: 1; */
+      transform: translateX(-50%);
+  }
+
+  .header-right a {
+      width: 100%;
+      color: white;
+  }
+
+  .icon {
+    display: block;
+    z-index: 12;
+  }
+
 }
 
 @media screen and (max-width: 670px) {
-  .header-right.responsive {position: relative;}
+  /* .header-right.responsive {position: relative;}
    .icon {
     position: absolute;
     right: 0;
@@ -65,7 +101,7 @@
     width: 100%;
     text-align: left;
     background: linear-gradient(to right, #5b86e5, #36d1dc); 
-  }
+  } */
 }
 
 @media all and (max-width: 670px) {

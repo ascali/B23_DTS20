@@ -56,20 +56,24 @@ header {
   width: 100%;
   background: linear-gradient(to right, #5b86e5, #36d1dc 100%, #0000); /* background when scroll is in the top */
   transition: background .5s; /* control how smooth the background changes */
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky; */
+  /* position: sticky; */
   position: fixed;
   top: 0;
   z-index: 10;
-
 }
 
 header.scrolled {
   background: linear-gradient(to right, #5b86e5, #36d1dc);
 }
 
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
 .tigaDLogo {
-   margin-top: 5.5%;
    color: white; 
    font: bold 41px 'Montserrat', Sans-Serif;
    text-shadow: 1px 1px #36d1dc, 
@@ -104,19 +108,20 @@ header.scrolled {
 }
 
 .header-left {
-  float: left;
+  /* float: left; */
 }
 
 .header-right {
-  overflow: hidden;
-  float: right;
-  margin-right: -25px;
+  /* overflow: hidden; */
+  /* float: right; */
+  /* margin-right: -25px; */
+  display: flex;
 }
 
 .header-right a {
-  text-decoration: none;
+  /* text-decoration: none; */
   text-align: center;
-  float: left;
+  /* float: left; */
   display: block;
   color: white;
   padding: 0 25px;
@@ -129,10 +134,28 @@ header.scrolled {
 }
 
 .icon {
-  color: white;
-  font-size: 25px;
-  padding: 21px 0;
   display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 footer img {
