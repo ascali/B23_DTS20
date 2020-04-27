@@ -201,6 +201,7 @@ footer {
 
 .our-team {
 	background: #f7f7f7;
+  padding-bottom: 50px;
 }
 
 .title-center-h2 {
@@ -400,11 +401,18 @@ footer {
 
 .about {
   background: linear-gradient(to right, #36D1DC, #5B86E5); 
-  height: 40vh;
+  padding-bottom: 50px;
 }
 
-h2 {
+.about-body {
   text-align: center;
+  font-size: 17px;
+  color: white;
+  padding: 25px;
+}
+
+.white {
+  color: white;
 }
 
 .left {
